@@ -19,10 +19,11 @@ module.exports = {
   rules: {
     indent: [ "error", 2, { SwitchCase: 1 } ],
     quotes: [ "error", "double", { avoidEscape: true } ],
+    semi: [ "error", "always" ],
+    "no-console": "error",
     "array-bracket-spacing": [ "error", "always" ],
     "object-curly-spacing": [ "error", "always" ],
     "linebreak-style": [ "error", "unix" ],
-    semi: [ "error", "always" ],
     "no-empty-function'": "off",
     "@typescript-eslint/no-empty-function": "off",
     "react/display-name2": "off",
