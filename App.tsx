@@ -4,7 +4,7 @@ import { Text, View } from "react-native";
 const App: React.FC = () => {
   return(
     <View style={{ flex: 1, justifyContent: "center" }}>
-      <Text>
+      <Text style={{ textAlign: "center" }}>
         Try editing me!
       </Text>
     </View>
